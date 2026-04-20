@@ -10,5 +10,6 @@ def bfs(graph, start):
             visited.add(node)
             for neighbor in graph[node]:
                 queue.append(neighbor)
+                    
 
     return visited
